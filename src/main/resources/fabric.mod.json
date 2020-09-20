@@ -1,0 +1,29 @@
+
+{
+  "schemaVersion": 1,
+  "id": "nodrowned",
+  "version": "${version}",
+
+  "name": "No Drowned",
+  "description": "Stops drowned from spawning normally.",
+  "authors": [
+    "Filler256"
+  ],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/nodrowned/icon.png",
+
+  "environment": "*",
+
+  "mixins": [
+    "nodrowned.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}
